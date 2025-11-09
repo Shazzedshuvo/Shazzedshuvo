@@ -1,24 +1,24 @@
-# 👋 Hi, I'm Shazzedshuvo
+# 👋 Hi, I'm Shazzed Shuvo
 
-### 🌐 Connect with me
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Shazzedshuvo)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Shazzedshuvo)  
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Shazzedshuvo)  
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/Shazzedshuvo)
+### 🌐 Connect with me  
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/MDSAZZADHOSENS5)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-shazzed-hossen-shuvo-1050b3257/)  
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@dontworry4200)  
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/mdshazzed.hossen.98)
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 About Me  
 I'm a passionate **Frontend & Fullstack Developer** specializing in **React & Next.js**.  
 I love building **modern, responsive, and interactive web apps** using the latest technologies.  
 
-- 🌱 Currently learning: **Tailwind CSS, Framer Motion, Next.js advanced features**  
+- 🌱 Currently learning: **Tailwind CSS, Framer Motion, and Next.js advanced features**  
 - 💼 Looking for: **Frontend / Fullstack Development Opportunities**  
 - ⚡ Fun fact: I enjoy **AI, tech tutorials, and creating cool projects**
 
 ---
 
-### 🛠 Tech Stack
+### 🛠 Tech Stack  
 <p float="left">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
@@ -38,15 +38,15 @@ I love building **modern, responsive, and interactive web apps** using the lates
 
 ---
 
-### 📈 GitHub Stats
-![Shazzedshuvo GitHub stats](https://github-readme-stats.vercel.app/api?username=Shazzedshuvo&show_icons=true&theme=radical)
+### 📈 GitHub Stats  
+![Shazzed Shuvo GitHub stats](https://github-readme-stats.vercel.app/api?username=Shazzedshuvo&show_icons=true&theme=radical)
 
-### 🖋 Top Languages
+### 🖋 Top Languages  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Shazzedshuvo&layout=compact&theme=radical)
 
 ---
 
-### ⚡ Featured Projects
+### ⚡ Featured Projects  
 - **React Projects:** [React & Routing Projects](https://github.com/Shazzedshuvo/React-and-react-routingProjact)  
-- **YouTube AI Projects:** [TechMastery Hub](https://www.youtube.com/@Shazzedshuvo)  
+- **YouTube AI Projects:** [TechMastery Hub](https://www.youtube.com/@dontworry4200)  
 - **E-commerce Web Apps:** [T-Shop Express](https://github.com/Shazzedshuvo/T-Shirt-Express)
