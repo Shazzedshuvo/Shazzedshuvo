@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Shazzedshuvo/PortfolioSite/main/GitHub-1009x584.jpg" width="900" style="border-radius: 10px;" />
+</p>
+
 # 👋 Hi, I'm Shazzed Shuvo
 
 ### 🌐 Connect with me  
@@ -14,7 +18,8 @@ I love building **modern, responsive, and interactive web apps** using the lates
 
 - 🌱 Currently learning: **Tailwind CSS, Framer Motion, and Next.js advanced features**  
 - 💼 Looking for: **Frontend / Fullstack Development Opportunities**  
-- ⚡ Fun fact: I enjoy **AI, tech tutorials, and creating cool projects**
+- ⚡ Fun fact: I enjoy **AI, tech tutorials, and creating cool projects**  
+- 🖤 Hobbies: **Gaming, Tech Blogging, YouTube Tutorials**
 
 ---
 
@@ -49,4 +54,38 @@ I love building **modern, responsive, and interactive web apps** using the lates
 ### ⚡ Featured Projects  
 - **React Projects:** [React & Routing Projects](https://github.com/Shazzedshuvo/React-and-react-routingProjact)  
 - **YouTube AI Projects:** [TechMastery Hub](https://www.youtube.com/@dontworry4200)  
-- **E-commerce Web Apps:** [T-Shop Express](https://github.com/Shazzedshuvo/T-Shirt-Express)
+- **E-commerce Web Apps:** [T-Shop Express](https://github.com/Shazzedshuvo/T-Shirt-Express)  
+- **Portfolio Website:** [Personal Portfolio](https://github.com/Shazzedshuvo/PortfolioSite)  
+- **Mini Projects:** [Mini React Projects](https://github.com/Shazzedshuvo/Mini-React-Projects)
+
+---
+
+### 🏆 Skills Progress  
+- **React.js:** 90% ██████████░░░░░  
+- **Next.js:** 85% █████████░░░░░░  
+- **Node.js & Express:** 80% ████████░░░░░░  
+- **MongoDB:** 75% ███████░░░░░░░  
+- **Tailwind CSS:** 80% ████████░░░░░░  
+- **JavaScript (ES6+):** 95% ██████████░░░  
+
+---
+
+### 🎯 Fun Facts  
+- I’ve built **10+ full-stack projects**  
+- Love exploring **AI tools & automation scripts**  
+- I’m a **self-taught developer** with 2+ years experience  
+- You can find me **live streaming coding sessions** on YouTube  
+
+---
+
+### 🌟 Visitor Counter  
+![Visitor Count](https://profile-counter.glitch.me/Shazzedshuvo/count.svg)
+
+---
+
+### 💻 Let's Connect & Collaborate  
+I’m open to **freelance, internship, and full-time opportunities**.  
+Feel free to **reach out on LinkedIn, X (Twitter), or Email**.  
+
+---
+
