@@ -145,17 +145,88 @@ Here are some of my standout projects. Each one showcases my skills in building 
 ---
 
 ### 🏆 Skills Progress
-Track my proficiency in key technologies with these progress bars:
 
-- **React.js:** ![90%](https://progress-bar.dev/90/?scale=100&width=200&color=00D1FF&suffix=%20)  
-- **Next.js:** ![85%](https://progress-bar.dev/85/?scale=100&width=200&color=00D1FF&suffix=%20)  
-- **Node.js & Express:** ![80%](https://progress-bar.dev/80/?scale=100&width=200&color=00D1FF&suffix=%20)  
-- **MongoDB:** ![75%](https://progress-bar.dev/75/?scale=100&width=200&color=00D1FF&suffix=%20)  
-- **Tailwind CSS:** ![80%](https://progress-bar.dev/80/?scale=100&width=200&color=00D1FF&suffix=%20)  
-- **JavaScript (ES6+):** ![95%](https://progress-bar.dev/95/?scale=100&width=200&color=00D1FF&suffix=%20)  
-- **Three.js & 3D Web:** ![70%](https://progress-bar.dev/70/?scale=100&width=200&color=00D1FF&suffix=%20)  
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=react" width="48" alt="React" /></td>
+      <td><b>React.js</b></td>
+      <td>
+        <img src="https://progress-bar.dev/90/?scale=100&width=280&color=00D1FF&suffix=%" alt="90%" />
+        <img src="https://img.shields.io/badge/90%25-00D1FF?style=flat-square&logoColor=white" alt="90% icon" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=nextjs" width="48" alt="Next.js" /></td>
+      <td><b>Next.js</b></td>
+      <td>
+        <img src="https://progress-bar.dev/85/?scale=100&width=280&color=00D1FF&suffix=%" alt="85%" />
+        <img src="https://img.shields.io/badge/85%25-00D1FF?style=flat-square&logoColor=white" alt="85% icon" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="48" alt="Node.js" /></td>
+      <td><b>Node.js & Express</b></td>
+      <td>
+        <img src="https://progress-bar.dev/80/?scale=100&width=280&color=00D1FF&suffix=%" alt="80%" />
+        <img src="https://img.shields.io/badge/80%25-00D1FF?style=flat-square&logoColor=white" alt="80% icon" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=mongodb" width="48" alt="MongoDB" /></td>
+      <td><b>MongoDB</b></td>
+      <td>
+        <img src="https://progress-bar.dev/75/?scale=100&width=280&color=00D1FF&suffix=%" alt="75%" />
+        <img src="https://img.shields.io/badge/75%25-00D1FF?style=flat-square&logoColor=white" alt="75% icon" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=tailwind" width="48" alt="Tailwind CSS" /></td>
+      <td><b>Tailwind CSS</b></td>
+      <td>
+        <img src="https://progress-bar.dev/80/?scale=100&width=280&color=00D1FF&suffix=%" alt="80%" />
+        <img src="https://img.shields.io/badge/80%25-00D1FF?style=flat-square&logoColor=white" alt="80% icon" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=js" width="48" alt="JavaScript" /></td>
+      <td><b>JavaScript (ES6+)</b></td>
+      <td>
+        <img src="https://progress-bar.dev/95/?scale=100&width=280&color=00D1FF&suffix=%" alt="95%" />
+        <img src="https://img.shields.io/badge/95%25-00D1FF?style=flat-square&logoColor=white" alt="95% icon" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=threejs" width="48" alt="Three.js" /></td>
+      <td><b>Three.js & 3D Web</b></td>
+      <td>
+        <img src="https://progress-bar.dev/70/?scale=100&width=280&color=00D1FF&suffix=%" alt="70%" />
+        <img src="https://img.shields.io/badge/70%25-00D1FF?style=flat-square&logoColor=white" alt="70% icon" />
+      </td>
+    </tr>
+    <!-- Optional extras -->
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=typescript" width="48" alt="TypeScript" /></td>
+      <td><b>TypeScript</b></td>
+      <td>
+        <img src="https://progress-bar.dev/85/?scale=100&width=280&color=00D1FF&suffix=%" alt="85%" />
+        <img src="https://img.shields.io/badge/85%25-00D1FF?style=flat-square&logoColor=white" alt="85% icon" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=framer" width="48" alt="Framer Motion" /></td>
+      <td><b>Framer Motion</b></td>
+      <td>
+        <img src="https://progress-bar.dev/75/?scale=100&width=280&color=00D1FF&suffix=%" alt="75%" />
+        <img src="https://img.shields.io/badge/75%25-00D1FF?style=flat-square&logoColor=white" alt="75% icon" />
+      </td>
+    </tr>
+  </table>
+</p>
 
----
+<p align="center">
+  <small>🚀 Proficiency levels are self-assessed and always improving</small>
+</p>
 
 ### 🎯 Fun Facts
 - I’ve built **10+ full-stack projects** from scratch.  
