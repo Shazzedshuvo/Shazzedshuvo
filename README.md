@@ -116,16 +116,21 @@ I love building **modern, responsive, and interactive web apps** using the lates
 </p>
 ---
 
-### 📈 GitHub Stats
+
+
+## 📊 The Dark Mode Metrics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shazzedshuvo&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" alt="Shazzed Shuvo GitHub stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shazzedshuvo&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Shazzedshuvo&show_icons=true&theme=tokyonight&border_radius=10&hide_border=false" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shazzedshuvo&layout=compact&theme=tokyonight&border_radius=10&hide_border=false" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shazzedshuvo&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shazzedshuvo&theme=tokyonight&hide_border=false&border_radius=10" width="100%" />
 </p>
 
+---<p>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;weight=600&amp;size=25&amp;pause=1000&amp;color=F7DF1E&amp;center=true&amp;vCenter=true&amp;width=500&amp;lines=Fullstack+Web+Developer;Next.js+%26+React+Specialist;Creative+Content+Creator;Problem+Solver;Tech+Enthusiast" alt="Typing SVG">
+  </p>
 ---
 
 ### ⚡ Featured Projects
