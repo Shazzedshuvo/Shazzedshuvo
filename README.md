@@ -2,9 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=320&section=header&text=Shazzed%20Shuvo&fontSize=120&animation=twinkling&fontColor=00FF9D&fontAlignY=45&desc=Digital%20Craftsman%20%7C%203D%20Web%20Sorcerer%20%7C%20React%20%2B%20Next.js&descAlignY=70&descAlign=center&theme=dark" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Shazzed%20Shuvo&fontSize=80&animation=twinkling&fontAlignY=38&desc=Full-Stack%20Developer%20%26%20Tech%20Enthusiast&descAlignY=55&descAlign=62" width="100%" />
-</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Shazzedshuvo/PortfolioSite/main/GitHub-1009x584.jpg" width="900" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" />
