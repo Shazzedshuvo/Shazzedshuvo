@@ -1,37 +1,358 @@
 @import "tailwindcss";
 
+
+/* =========================================
+   GLOBAL MOTION
+========================================= */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --theme-transition:
+    cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+:root,
+html[data-theme="dark"] {
+  --background: #070a0d;
+
+  --surface: rgba(255, 255, 255, 0.045);
+
+  --surface-hover: rgba(255, 255, 255, 0.07);
+
+  --foreground: #f5f7f8;
+
+  --muted: #9ba5ae;
+
+  --border: rgba(255, 255, 255, 0.1);
+
+  --navbar-background: rgba(7, 10, 13, 0.82);
+
+  --accent: #00bf8f;
+
+
+  /* =========================================
+     ORIGINAL DARK HERO BALLS
+     DON'T CHANGE
+  ========================================= */
+
+  --hero-glow-1: linear-gradient(
+    90deg,
+    #302b63 0%,
+    #00bf8f 50%,
+    #1cd8d2 100%
+  );
+
+  --hero-glow-2: linear-gradient(
+    90deg,
+    #302b63 0%,
+    #00bf8f 50%,
+    #1cd8d2 100%
+  );
+
+  --hero-glow-opacity: 0.3;
+
+  color-scheme: dark;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+/* =========================================
+   LIGHT / DAY MODE
+========================================= */
+
+html[data-theme="light"] {
+  --background: #f5f8f7;
+
+  --surface: rgba(255, 255, 255, 0.78);
+
+  --surface-hover: rgba(0, 0, 0, 0.035);
+
+  --foreground: #101416;
+
+  --muted: #68727b;
+
+  --border: rgba(0, 0, 0, 0.09);
+
+  --navbar-background: rgba(245, 248, 247, 0.88);
+
+  --accent: #00a87d;
+
+
+  /* =========================================
+     SOFT DAY HERO BALL 01
+     Lavender + Mint + Sky
+  ========================================= */
+
+  --hero-glow-1: linear-gradient(
+    90deg,
+    #ddd8ff 0%,
+    #b8f3df 50%,
+    #c9efff 100%
+  );
+
+
+  /* =========================================
+     SOFT DAY HERO BALL 02
+     Pink + Mint + Soft Blue
+  ========================================= */
+
+  --hero-glow-2: linear-gradient(
+    90deg,
+    #ffe0ec 0%,
+    #d1f4e6 50%,
+    #d8e8ff 100%
+  );
+
+  --hero-glow-opacity: 0.58;
+
+  color-scheme: light;
+}
+
+
+/* =========================================
+   HTML
+========================================= */
+
+html {
+  scroll-behavior: smooth;
+
+  background: var(--background);
+
+  transition:
+    background-color 0.6s var(--theme-transition),
+    color 0.45s var(--theme-transition);
+}
+
+
+/* =========================================
+   BODY
+========================================= */
+
+body {
+  margin: 0;
+
+  padding: 0;
+
+  min-height: 100vh;
+
+  background: var(--background) !important;
+
+  color: var(--foreground);
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  overflow-x: hidden;
+
+  position: relative;
+
+  isolation: isolate;
+
+  transition:
+    background-color 0.6s var(--theme-transition),
+    color 0.45s var(--theme-transition);
+}
+
+
+/* =========================================
+   SMOOTH THEME TRANSITION
+========================================= */
+
+body * {
+  transition-property:
+    background-color,
+    border-color,
+    color,
+    fill,
+    stroke,
+    box-shadow;
+
+  transition-duration: 0.42s;
+
+  transition-timing-function:
+    var(--theme-transition);
+}
+
+
+/* Faster interaction for links/buttons */
+
+a,
+button {
+  transition-duration: 0.28s;
+}
+
+
+/* =========================================
+   FORM ELEMENT TRANSITION
+========================================= */
+
+input,
+textarea,
+select {
+  transition:
+    background-color 0.42s var(--theme-transition),
+    border-color 0.3s ease,
+    color 0.42s var(--theme-transition),
+    box-shadow 0.3s ease;
+}
+
+
+/* =========================================
+   SECTION SCROLL OFFSET
+========================================= */
+
+section {
+  scroll-margin-top: 100px;
+}
+
+
+/* =========================================
+   SELECTION
+========================================= */
+
+::selection {
+  background: rgba(0, 191, 143, 0.25);
+
+  color: var(--foreground);
+}
+
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+
+  transition:
+    background-color 0.5s var(--theme-transition);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 191, 143, 0.45);
+
+  border-radius: 20px;
+
+  transition:
+    background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 191, 143, 0.7);
+}
+
+
+/* =========================================
+   CUSTOM CURSOR
+========================================= */
+
+@media (pointer: fine) {
+  body,
+  a,
+  button {
+    cursor: none;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+.custom-cursor-dot {
+  opacity: 0;
+
+  transition:
+    width 0.2s ease,
+    height 0.2s ease,
+    opacity 0.2s ease,
+    background-color 0.25s var(--theme-transition);
 }
 
-/* Smooth scroll */
-html {
-  scroll-behavior: smooth;
+
+.custom-cursor-ring {
+  opacity: 0;
+
+  box-shadow:
+    0 0 16px rgba(0, 191, 143, 0.12),
+    inset 0 0 10px rgba(0, 191, 143, 0.04);
+
+  transition:
+    width 0.25s ease,
+    height 0.25s ease,
+    border-color 0.3s var(--theme-transition),
+    background-color 0.3s var(--theme-transition),
+    box-shadow 0.3s var(--theme-transition),
+    opacity 0.2s ease;
 }
 
-@layer utilities{
-  .gradient{
-    background: linear-gradient(-45deg,#302b63,#00bf8f,#1cd8d2);
+
+.custom-cursor-ring.custom-cursor-hover {
+  width: 52px;
+
+  height: 52px;
+
+  margin-left: -8px;
+
+  margin-top: -8px;
+
+  border-color: rgba(0, 191, 143, 0.8);
+
+  background: rgba(0, 191, 143, 0.1);
+
+  box-shadow:
+    0 0 24px rgba(0, 191, 143, 0.18),
+    inset 0 0 15px rgba(0, 191, 143, 0.06);
+}
+
+
+.custom-cursor-dot.custom-cursor-dot-hover {
+  background: var(--foreground);
+}
+
+
+/* =========================================
+   TOUCH DEVICE
+========================================= */
+
+@media (pointer: coarse) {
+  .custom-cursor-dot,
+  .custom-cursor-ring {
+    display: none !important;
+  }
+
+  body,
+  a,
+  button {
+    cursor: auto;
+  }
+}
+
+
+/* =========================================
+   ACCESSIBILITY - REDUCED MOTION
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  html,
+  body,
+  body *,
+  body *::before,
+  body *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+
+    scroll-behavior: auto !important;
   }
 }
